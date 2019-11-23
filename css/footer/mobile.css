@@ -93,60 +93,7 @@
         -ms-flex-align: center;
         align-items: center;
     }
-
-    .footer__btn {
-        width: 280px;
-        height: 35px;
-        border-radius: 30px;
-        border: none;
-        background-color: #5e42b0;
-        margin-bottom: 10px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        outline: none;
-    }
-
-    .footer__btn:last-child {
-        margin-bottom: 85px;
-    }
-
-    .footer__btn_content {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin-left: 80px;
-    }
-
-    .footer__btn_inner-content {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        color: white;
-        font-size: 8px;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        text-transform: uppercase;
-    }
-
-    .footer__btn_img {
-        height: 25px;
-        width: 25px;
-        margin-right: 5px;
-    }
-
-    .header__btn-content_bold {
-        font-weight: bold;
-    }
-
+    
     .footer__bottom-wrap-logo {
         width: 100%;
         display: -webkit-box;
@@ -164,5 +111,59 @@
     .footer__bottom-logo {
         height: 35px;
         width: 130px;
+    }
+
+
+    .click-left, .click-right {
+        display: flex;
+        width: 310px;
+        height: 77px;
+        background-color: #5e42b0;
+        font-size: 14px;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 50px;
+        align-items: center;
+        margin-top: 220px;
+        text-decoration: none;
+    }
+
+    .download-logo-apple {
+        margin-left: 40px;
+        width: 42px;
+        height: 48px;
+    }
+
+    .download-logo-google {
+        width: 40px;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    .download {
+        display: flex;
+        flex-flow: column;
+        margin-left: 27px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .click-left {
+        margin-right: 25px;
+    }
+
+    .click-right {
+        margin-left: 25px;
+    }
+
+    .download-start {
+        font-weight: regular;
+    }
+
+    .download-end {
+        font-weight: bold;
     }
 }
