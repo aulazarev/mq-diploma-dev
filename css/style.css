@@ -1,13 +1,13 @@
 @import "base/base.css";
 @import "header/mobile.css";
 @import "header/tablet.css";
-@import "header/desktop.css";
+@import "header/desctop.css";
 @import "kinds/mobile.css";
 @import "kinds/tablet.css";
-@import "kinds/desktop.css";
+@import "kinds/desctop.css";
 @import "status/mobile.css";
 @import "status/tablet.css";
-@import "status/desktop.css";
+@import "status/desctop.css";
 @import "footer/mobile.css";
 @import "footer/tablet.css";
-@import "footer/desktop.css";
+@import "footer/desctop.css";
