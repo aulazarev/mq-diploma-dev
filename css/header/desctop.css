@@ -1,7 +1,7 @@
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) {
 
     .header {
-        background-image: url("../../img/football_767.jpg");
+        background-image: url("../../img/football_1920.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -30,8 +30,8 @@
     }
 
     .header__inner_logo-img {
-        height: 55px;
-        width: 200px;
+        height: 50px;
+        width: 187px;
     }
 
     .header__inner_content-text {
@@ -40,7 +40,6 @@
         text-transform: uppercase;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-left: 20px;
         font-weight: bold;
         line-height: 28px;
         display: -webkit-box;
@@ -54,6 +53,10 @@
 
     .header__inner_content-text-span {
         margin-left: 45px;
+    }
+
+    .header__inner_content-text-span:last-child {
+        margin-left: 40px;
     }
 
     .header__wrap_btn {
@@ -71,7 +74,7 @@
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        margin-top: 310px;
+        margin-top: 220px;
     }
 
     .header__btn {
@@ -128,31 +131,28 @@
     }
 
     .header__inner{
-        padding-bottom: 85px;
+        padding-bottom: 100px;
+        margin-bottom: 25px;
     }
 
     .header__inner_logo{
-        margin-bottom: 175px;
+        margin-bottom: 290px;
     }
 
     .header__inner_content-text{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        font-size: 64px;
+        font-size: 90px;
         line-height: normal;
     }
 
     .header__inner_content-text-span{
         line-height: 80px;
-        margin-left: 190px;
+        margin-left: 650px;
     }
 
     .header__inner_content-text-head-span{
         margin-bottom: 0;
         line-height: 80px;
-        margin-left: 85px;
+        margin-left: 190px;
     }
 
     .header__btn:last-child{
@@ -162,7 +162,7 @@
 
 
     .header__btn{
-        padding: 25px 35px;
+        padding: 25px 40px;
         height: auto;
         width: 310px;
         border-radius: 50px;
