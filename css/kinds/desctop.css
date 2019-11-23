@@ -1,4 +1,12 @@
-@media (max-width: 767px) {
+@media (min-width: 1024px) {
+
+    .mobile{
+        display: none;
+    }
+
+    .kinds__athlets{
+        position: relative;
+    }
 
     .athlets__text_title,
     .players__text_title {
@@ -14,7 +22,7 @@
     .players__connection-title,
     .players__collaboration-title,
     .players__growth-title {
-        font-size: 23px;
+        font-size: 36px;
         line-height: 24px;
         color: #e7e7e7;
         text-transform: uppercase;
@@ -23,32 +31,58 @@
 
     .athlets__connection-text,
     .athlets__collaboration-text,
-    .athlets__growth-text,
-    .players__connection-text,
-    .players__collaboration-text {
-        font-size: 15px;
-        line-height: 18px;
+    .athlets__growth-text{
+        font-size: 20px;
         color: #000000;
-        margin-left: 20px;
+        margin-left: 50%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 270px;
+        max-width: 450px;
+    }
+
+    .athlets__growth-text{
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 450px;
+    }
+
+    .players__connection-text,
+    .players__collaboration-text {
+        font-size: 20px;
+        color: #000000;
+        margin-left: 10%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 720px;
+    }
+
+    .players__growth-text{
+        color: white;
+        margin-left: 20px;
+        width: 425px;
     }
 
     .players__growth-text {
         font-size: 15px;
         line-height: 18px;
         color: #ffffff;
-        margin-left: 20px;
+        margin-left: 10%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 270px;
+        width: 720px;
     }
 
-    .kinds {
-        padding-top: 25px;
+
+    .kinds__players{
+        position: relative;
+        overflow: hidden;
     }
 
     .athlets__wrap-connection,
@@ -64,14 +98,18 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding-bottom: 50px;
-        padding-top: 60px;
+        padding-bottom: 55px;
     }
 
-    .athlets__wrap-connection,
-    .players__wrap-connection {
-        background-color: #fafafa;
-        margin-top: 235px;
+    .athlets__wrap-collaboration,
+    .athlets__wrap-growth,
+    .players__wrap-collaboration,
+    .players__wrap-growth {
+        padding-top: 40px;
+    }
+
+    .players__wrap-collaboration{
+        padding-bottom: 90px;
     }
 
     .athlets__wrap-collaboration,
@@ -91,7 +129,7 @@
     .players__number_black {
         color: black;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         border-bottom: 3px solid #5e42b0;
         margin-bottom: 3px;
@@ -101,7 +139,7 @@
 
     .athlets__number_violet {
         color: black;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         border-bottom: 2px solid white;
         margin-bottom: 3px;
@@ -111,7 +149,7 @@
 
     .players__number_violet {
         color: #8765dd;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         border-bottom: 2px solid white;
         margin-bottom: auto;
@@ -121,47 +159,46 @@
     }
 
     .athlets__img {
-        height: 280px;
-        width: 170px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 850px;
+        width: 520px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         position: absolute;
-        left: 0;
-        right: 0;
-        margin-top: 5px;
+        left: 390px;
+        top: -50px;
     }
 
     .players__img {
-        height: 250px;
-        width: 290px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 750px;
+        width: auto;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         position: absolute;
-        left: 0;
-        right: 0;
-        margin-top: 5px;
+        right: 125px;
+        top: 25px;
     }
 
-    .desctop {
-        display: none;
-    }
-
-    .players__text_title,
     .athlets__text_title {
-        margin-left: 20px;
+        margin-left: 50%;
         line-height: normal;
-        margin-top: 5px;
+        font-size: 80px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .players__text_title{
+        margin-left: 10%;
+        line-height: normal;
+        font-size: 80px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .players__wrap-connection-title,
     .players__wrap-connection-title,
-    .players__wrap-connection-title {
+    players__wrap-connection-title {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -172,14 +209,69 @@
 
     .athlets__wrap-growth-title,
     .athlets__wrap-connection-title,
-    .athlets__wrap-collaboration-title,
+    .athlets__wrap-collaboration-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 50%;
+        margin-bottom: 25px;
+    }
+
     .players__wrap-growth-title,
     .players__wrap-connection-title,
     .players__wrap-collaboration-title {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        padding-left: 20px;
+        margin-left: 10%;
         margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .players__img{
+        height: 750px;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        right: -325px;
+        top: 25px;
+    }
+
+    .athlets__img{
+        height: 850px;
+        width: 520px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: -50px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .players__img{
+        height: 750px;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+
+    .athlets__img{
+        height: 850px;
+        width: 520px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        left: 100px;
+        top: -50px;
     }
 }
