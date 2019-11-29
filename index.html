@@ -6,23 +6,30 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>mq-diploma</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/base/base.css">
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__inner">
 				<div class="header__inner_logo">
-					<img class="header__inner_logo-img" src="img/surface_logo_text_white.png" alt="surface">
+					<a href="#">
+					 <picture>
+						<img class="header__inner_logo-img" src="img/surface_logo_text_white.png" alt="surface-logo">
+					 </picture>
+					</a>
 				</div>
 				<div class="header__inner_content">
-					<p class="header__inner_content-text">
-						<span class="header__inner_content-text-head-span">be recruited</span>
-						<span class="header__inner_content-text-span"> play college sports</span>
-					</p>
+					<h1 class="header__inner_content-text">
+						<p class="header__inner_content-text-head-span">be recruited</p>
+						<p class="header__inner_content-text-span"> play college sports</p>
+					</h1>
 				</div>
 				<div class="header__wrap_btn">
 					<button class="header__btn">
 						<div class="header__btn_content">
+						 	<picture>
 							<img class="header__btn_img" src="img/apple_logo_white.png" alt="app store">
+							</picture>
 							<div class="header__btn_inner-content">
 								<span>download on the</span>
 								<span class="header__btn-content_bold">app store</span>
@@ -31,7 +38,9 @@
 					</button>
 					<button class="header__btn">
 						<div class="header__btn_content">
+						 <picture>
 							<img class="header__btn_img" src="img/google-play-white.png" alt="google play">
+						 </picture>
 							<div class="header__btn_inner-content">
 								<span>get it on</span>
 								<span class="header__btn-content_bold">google play </span>
@@ -41,124 +50,191 @@
 				</div>
 			</div>
 		</header>
-		<section class="kinds">
-			<div class="kinds__wrap-content">
-				<div class="kinds__athlets">
-					<div class="athlets__wrap-img desctop">
-						<img class="athlets__img" src="img/footballer_566.png" alt="athlets">
-					</div>
-					<div class="athlets__text">
-						<p class="athlets__text_title">athlets</p>
-						<div class="athlets__wrap-img mobile">
-							<img class="athlets__img" src="img/footballer_192.png" alt="athlets">
+		<div class="main">
+			<section class="kinds">
+				<div class="kinds__wrap-content">
+					<div class="kinds__athlets">
+						<div class="athlets__wrap-img desctop">
+							<img class="athlets__img" src="img/footballer_566.png" alt="athlets">
 						</div>
-						<div class="athlets__wrap-connection">
-							<div class="athlets__wrap-connection-title">
-								<span class="athlets__number_black">01</span><p class="athlets__connection-title">connection</p>
+						<div class="athlets__text">
+							<h2 class="athlets__text_title">athlets</h2>
+							<div class="athlets__wrap-img mobile">
+							 <picture>
+								<source class="players__img" srcset="img/footballer_192.png" media="(min-width: 320px)">
+								<source class="players__img" srcset="img/footballer_497.png" media="(min-width: 768px)">
+								<img class="athlets__img" src="img/footballer_566.png" alt="athlets">
+							 </picture>
 							</div>
-							<p class="athlets__connection-text">
-								Connect with coaches directly, you can ping coaches to view profile.
-							</p>
-						</div>
-						<div class="athlets__wrap-collaboration">
-							<div class="athlets__wrap-collaboration-title">
-								<span class="athlets__number_black">02</span><p class="athlets__collaboration-title">collaboration</p>
+							<div class="athlets__wrap-connection">
+								<div class="athlets__wrap-connection-title">
+									<div class="athlets__number_black">
+										01
+										<div class="border-blue"></div>
+									</div>
+									<p class="athlets__connection-title">
+										connection
+									</p>
+								</div>
+								<p class="athlets__connection-text">
+									Connect with coaches directly, you can ping coaches to view profile.
+								</p>
 							</div>
-							<p class="athlets__collaboration-text">
-								Work with other student athletes to  increase visability.
-								When you share and like other players videos it will increase your visability as a player.
-								This is the team work aspect to Surface 1.
-							</p>
-						</div>
-						<div class="athlets__wrap-growth">
-							<div class="athlets__wrap-growth-title">
-								<span class="athlets__number_violet">03</span><p class="athlets__growth-title">growth</p>
+							<div class="athlets__wrap-collaboration">
+								<div class="athlets__wrap-collaboration-title">
+									<div class="athlets__number_black">
+										02
+										<div class="border-blue"></div>
+									</div>
+									<p class="athlets__collaboration-title">
+										collaboration
+									</p>
+								</div>
+								<p class="athlets__collaboration-text">
+									Work with other student athletes to  increase visability.
+									When you share and like other players videos it will increase your visability as a player.
+									This is the team work aspect to Surface 1.
+								</p>
 							</div>
-							<p class="athlets__growth-text">
-								Resources and tools for you to get better as a student Athelte.
-								Access to training classes, tutor sessions, etc 
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="kinds__players">
-					<div class="players__text">
-						<p class="players__text_title">players</p>
-						<div class="players__wrap-img mobile">
-							<img class="players__img" src="img/basketballer_302.png" alt="players">
-						</div>
-						<div class="players__wrap-connection">
-							<div class="players__wrap-connection-title">
-								<span class="players__number_black">01</span><p class="players__connection-title">connection</p>
+							<div class="athlets__wrap-growth">
+								<div class="athlets__wrap-growth-title">
+									<div class="athlets__number_violet">
+										03
+										<div class="border-white"></div>
+									</div>
+									<p class="athlets__growth-title">
+										growth
+									</p>
+								</div>
+								<p class="athlets__growth-text">
+									Resources and tools for you to get better as a student Athelte.
+									Access to training classes, tutor sessions, etc 
+								</p>
 							</div>
-							<p class="players__connection-text">
-								Connect with talented athlete directly, you can watch their skills through
-								video showreels directly from Surface 1.
-							</p>
-						</div>
-						<div class="players__wrap-collaboration">
-							<div class="players__wrap-collaboration-title">
-								<span class="players__number_black">02</span><p class="players__collaboration-title">collaboration</p>
-							</div>
-							<p class="players__collaboration-text">
-								Work with recruiter to increase your chances of finding talented athlete.
-							</p>
-						</div>
-						<div class="players__wrap-growth">
-							<div class="players__wrap-growth-title">
-								<span class="players__number_violet">03</span><p class="players__growth-title">growth</p>
-							</div>
-							<p class="players__growth-text">
-								Save your time, recruit proper athlets for your team.
-							</p>
 						</div>
 					</div>
-					<div class="players__wrap-img desctop">
-						<img class="players__img" src="img/basketballer_991.png" alt="players">
+					<div class="kinds__players">
+						<div class="players__text">
+							<p class="players__text_title">players</p>
+							<div class="players__wrap-img mobile">
+							 <picture>
+								<source class="players__img" srcset="img/basketballer_302.png" media="(min-width: 320px)">
+								<source class="players__img" srcset="img/basketballer_436.png" media="(min-width: 768px)">
+								<img class="players__img" srcset="img/basketballer_991.png">
+							 </picture>
+							</div>
+							<div class="players__wrap-connection">
+								<div class="players__wrap-connection-title">
+									<div class="players__number_black">
+										01
+										<div class="border-blue"></div>
+									</div>
+									<p class="players__connection-title">
+										connection
+									</p>
+								</div>
+								<p class="players__connection-text">
+									Connect with talented athlete directly, you can watch their skills through
+									video showreels directly from Surface 1.
+								</p>
+							</div>
+							<div class="players__wrap-collaboration">
+								<div class="players__wrap-collaboration-title">
+									<div class="players__number_black">
+										02
+										<div class="border-blue"></div>
+									</div>
+									<p class="players__collaboration-title">
+										collaboration
+									</p>
+								</div>
+								<p class="players__collaboration-text">
+									Work with recruiter to increase your chances of finding talented athlete.
+								</p>
+							</div>
+							<div class="players__wrap-growth">
+								<div class="players__wrap-growth-title">
+									<div class="players__number_violet">
+										03
+										<div class="border-white"></div>
+									</div>
+									<p class="players__growth-title">
+										growth
+									</p>
+								</div>
+								<p class="players__growth-text">
+									Save your time, recruit proper athlets for your team.
+								</p>
+							</div>
+						</div>
+						<div class="players__wrap-img desctop">
+						 <picture>
+							<img class="players__img" src="img/basketballer_991.png" alt="players">
+						 </picture>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="status">
-			<div class="status__wrap-content content-card-1">
-				<div class="status__content-img be-active"></div>
-				<div class="status__content-number be-active-number"><span class="be-active-number-span">01</span></div>
-				<div class="status__content-text">
-					<h1 class="status__content_text-title">be active</h1>
-					<p class="status__content_text-text">
-						Post videos with your skills,
-						Like and follow others to be
-						more popular.
-					</p>
+			</section>
+			<section class="status">
+				<div class="status__wrap-content content-card-1">
+					<div class="status__content-img be-active"></div>
+					<div class="status__content-number be-active-number">
+						<span class="be-active-number-span">
+								01
+								<div class="border-blue">
+							</div>
+						</span>
+					</div>
+					<div class="status__content-text">
+						<h1 class="status__content_text-title">be active</h1>
+						<p class="status__content_text-text">
+							Post videos with your skills,
+							Like and follow others to be
+							more popular.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="status__wrap-content content-card-2">
-				<div class="status__content-text find-contact-text">
-					<h1 class="status__content_text-title">find contact</h1>
-					<p class="status__content_text-text">
-						Contact others to find right coach or athlete you are looking for.
-					</p>
+				<div class="status__wrap-content content-card-2">
+					<div class="status__content-text find-contact-text">
+						<h1 class="status__content_text-title">find contact</h1>
+						<p class="status__content_text-text">
+							Contact others to find right coach or athlete you are looking for.
+						</p>
+					</div>
+					<div class="status__content-number find-contact-number">
+						<div class="find-contact-number-span">
+							02
+							<div class="border-blue"></div>
+						</div>
+					</div>
+					<div class="status__content-img find-contact find-contact-img"></div>
 				</div>
-				<div class="status__content-number find-contact-number"><span class="find-contact-number-span">02</span></div>
-				<div class="status__content-img find-contact find-contact-img"></div>
-			</div>
-			<div class="status__wrap-content content-card-3">
-				<div class="status__content-img work-it"></div>
-				<div class="status__content-number work-it-number"><span class="work-it-number-span">03</span></div>
-				<div class="status__content-text">
-					<h1 class="status__content_text-title">work it</h1>
-					<p class="status__content_text-text">
-						Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience. 
-					</p>
+				<div class="status__wrap-content content-card-3">
+					<div class="status__content-img work-it"></div>
+					<div class="status__content-number work-it-number">
+						<div class="work-it-number-span">
+								03
+								<div class="border-blue">
+							</div>
+						</div>
+					</div>
+					<div class="status__content-text">
+						<h1 class="status__content_text-title">work it</h1>
+						<p class="status__content_text-text">
+							Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience. 
+						</p>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 		<footer class="footer">
 			<div class="footer__inner">
 				<div class="footer__content">
 					<div class="footer__wrapper-logo">
 						<div class="footer__wrap-logo">
+						 <picture>
 							<img class="footer__logo" src="img/surface_logo-white.png" alt="surface-logo">
+						 </picture>
 						</div>
 						<div class="footer__content-text">
 							<span class="footer__content-text_bold">download app</span>
@@ -168,7 +244,9 @@
 					<div class="footer__wrap_btn">
 						<button class="footer__btn">
 							<div class="footer__btn_content">
+							 <picture>
 								<img class="footer__btn_img" src="img/apple_logo_white.png" alt="app store">
+							 </picture>
 								<div class="footer__btn_inner-content">
 									<span>download on the</span>
 									<span class="footer__btn-content_bold">app store</span>
@@ -177,7 +255,9 @@
 						</button>
 						<button class="footer__btn">
 							<div class="footer__btn_content">
+							 <picture>
 								<img class="footer__btn_img" src="img/google-play-white.png" alt="google play">
+							 </picture>
 								<div class="footer__btn_inner-content">
 									<span>get it on</span>
 									<span class="footer__btn-content_bold">google play </span>
@@ -186,7 +266,7 @@
 						</button>
 					</div>
 					<div class="footer__bottom-wrap-logo">
-						<img class="footer__bottom-logo" src="img/surface_logo_text_white.png" alt="">
+						<a href="#"><img class="footer__bottom-logo" src="img/surface_logo_text_white.png" alt="surface"></a>
 					</div>
 				</div>
 			</div>
