@@ -1,99 +1,109 @@
 @media (min-width: 1024px) {
 
-    .status__wrap-content {
-        position: relative;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
+	.status__wrap-content {
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
 
-    .status__content-img {
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        height: 725px;
-        width: 50%;
-    }
+	.status__content-img {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		width: 50%;
+	}
 
-    .status__content-number {
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        background-color: #5e42b0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        top: 205px;
-        margin-left: calc(50% - 75px);
-    }
+	.status__content-number {
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		background-color: #5e42b0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		top: 205px;
+		margin-left: calc(50% - 75px);
+	}
 
-    .status__content_text-title {
-        font-size: 80px;
-        font-weight: bold;
-        color: #e7e7e7;
-        text-transform: uppercase;
-        margin-bottom: 70px;
-        margin-top: 250px;
-        margin-left: 130px;
-    }
+	.status__content_text-title {
+		font-size: 80px;
+		font-weight: bold;
+		color: #e7e7e7;
+		text-transform: uppercase;
+		margin-bottom: 70px;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+	}
 
-    .status__content_text-text{
-        margin-left: 130px;
-        max-width: 620px;
-    }
+	.status__content-text {
+		font-size: 24px;
+		width: 50%;
+		padding-top: 250px;
+		padding-left: 130px;
+		padding-right: 75px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-bottom: 250px;
+	}
 
-    .status__content-text {
-        font-size: 24px;
-        width: 50%;
-    }
+	.be-active {
+		background-image: url("../../img/be-active.jpg");
+	}
 
-    .be-active {
-        background-image: url("../../img/be-active.jpg");
-    }
+	.find-contact {
+		background-image: url("../../img/find-contact.jpg");
+	}
 
-    .find-contact {
-        background-image: url("../../img/find-contact.jpg");
-    }
+	.work-it {
+		background-image: url("../../img/work-it.jpg");
+	}
 
-    .work-it {
-        background-image: url("../../img/work-it.jpg");
-    }
+	.find-contact-number {
+		-webkit-box-ordinal-group: 4;
+		-ms-flex-order: 3;
+		order: 3;
+	}
 
-    .find-contact-number {
-        -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-        order: 3;
-    }
+	.find-contact-text {
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1;
+	}
 
-    .find-contact-text {
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
-    }
+	.find-contact-img {
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
 
-    .find-contact-img {
-        -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-        order: 2;
-    }
-
-    .find-contact-number-span,
-    .be-active-number-span,
-    .work-it-number-span {
-        color: #ffffff;
-        font-weight: bold;
-        border-bottom: 3px solid #8f7bc8;
-        font-size: 24px;
-    }
+	.find-contact-number-span,
+	.be-active-number-span,
+	.work-it-number-span {
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 24px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+	}
 
 }
