@@ -126,10 +126,16 @@
 		text-transform: uppercase;
 	}
 
-	.header__btn_img {
-		height: 25px;
-		width: 25px;
-		margin-right: 5px;
+	.header__btn_img_apple {
+		height: 48px;
+		width: 42px;
+		margin-right: 25px;
+	}
+
+	.header__btn_img_google {
+		height: 50px;
+		width: 40px;
+		margin-right: 25px;
 	}
 
 	.header__btn-content_bold {
@@ -182,11 +188,4 @@
 		-ms-flex-pack: center;
 		justify-content: center;
 	}
-
-	.header__btn_img{
-		width: 45px;
-		height: 45px;
-		margin-right: 25px;
-	}
-
 }
