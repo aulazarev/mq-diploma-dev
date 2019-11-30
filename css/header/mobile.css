@@ -85,13 +85,13 @@
 		outline: none;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
-		justify-content: center;
 	}
 
 	.header__btn_content {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		margin-left: 80px;
 	}
 
 	.header__btn_inner-content {
