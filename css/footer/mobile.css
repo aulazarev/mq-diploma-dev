@@ -137,12 +137,17 @@
 		text-transform: uppercase;
 	}
 
-	.footer__btn_img {
-		height: 25px;
-		width: 25px;
-		margin-right: 5px;
+	.footer__btn_img_apple {
+		height: 24px;
+		width: 20px;
+		margin-right: 10px;
 	}
 
+	.footer__btn_img_google {
+		height: 24px;
+		width: 22px;
+		margin-right: 10px;
+	}
 	.header__btn-content_bold {
 		font-weight: bold;
 	}

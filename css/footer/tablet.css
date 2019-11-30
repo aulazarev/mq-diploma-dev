@@ -15,7 +15,7 @@
 		display: -ms-flexbox;
 		display: flex;
 	}
-
+	
 	.footer__content {
 		margin-top: 125px;
 		display: -webkit-box;
@@ -134,9 +134,15 @@
 		text-transform: uppercase;
 	}
 
-	.footer__btn_img {
-		height: 40px;
-		width: 45px;
+	.footer__btn_img_apple {
+		height: 42px;
+		width: 36px;
+		margin-right: 25px;
+	}
+
+	.footer__btn_img_google {
+		height: 45px;
+		width: 41px;
 		margin-right: 25px;
 	}
 
