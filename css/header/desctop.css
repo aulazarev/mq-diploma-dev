@@ -107,6 +107,7 @@
 		display: -ms-flexbox;
 		display: flex;
 		margin-left: 80px;
+
 	}
 
 	.header__btn_inner-content {
@@ -164,15 +165,15 @@
 
 
 	.header__btn{
-		padding: 25px 40px;
-		height: auto;
-		width: 310px;
+		height: 70px;
+		width: 305px;
 		border-radius: 50px;
 		margin-bottom: 0;
+
 	}
 
 	.header__btn_content{
-		margin-left: 0;
+		margin-left: 50px;
 	}
 
 	.header__btn_inner-content{
