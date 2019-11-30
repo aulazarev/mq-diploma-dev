@@ -135,6 +135,7 @@
 		-ms-flex-align: start;
 		align-items: flex-start;
 		text-transform: uppercase;
+		justify-content: center;
 	}
 
 	.footer__btn_img_apple {
