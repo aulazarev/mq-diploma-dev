@@ -10,6 +10,7 @@
 	.footer__inner {
 		height: 100%;
 		width: 100%;
+		padding-top: 250px;
 		background-color: rgba(0, 0, 45, 0.8);
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -17,7 +18,6 @@
 	}
 
 	.footer__content {
-		margin-top: 125px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -120,18 +120,17 @@
 		-ms-flex-align: start;
 		align-items: flex-start;
 		text-transform: uppercase;
+		margin-left: 25px;
 	}
 
 	.footer__btn_img_apple {
 		height: 48px;
 		width: 42px;
-		margin-right: 25px;
 	}
 
 	.footer__btn_img_google {
 		height: 50px;
 		width: 40px;
-		margin-right: 25px;
 	}
 
 	.footer__btn-content_bold{
@@ -153,7 +152,6 @@
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
-		margin-bottom: 10px;
 	}
 
 	.footer__bottom-logo {
@@ -180,7 +178,6 @@
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		margin-top: 230px;
 	}
 
 }

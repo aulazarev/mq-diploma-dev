@@ -132,18 +132,17 @@
 		-ms-flex-align: start;
 		align-items: flex-start;
 		text-transform: uppercase;
+		margin-left: 25px;
 	}
 
 	.footer__btn_img_apple {
 		height: 42px;
 		width: 36px;
-		margin-right: 25px;
 	}
 
 	.footer__btn_img_google {
 		height: 45px;
 		width: 41px;
-		margin-right: 25px;
 	}
 
 	.footer__btn-content_bold{
@@ -165,7 +164,6 @@
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
-		margin-bottom: 10px;
 	}
 
 	.footer__bottom-logo {
