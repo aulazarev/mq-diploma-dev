@@ -23,7 +23,7 @@
 	.players__collaboration-title,
 	.players__growth-title {
 		font-size: 36px;
-		line-height: 24px;
+		line-height: 34px;
 		color: #e7e7e7;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -157,7 +157,6 @@
 
 	.athlets__img {
 		height: 850px;
-		width: 520px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -168,7 +167,6 @@
 
 	.players__img {
 		height: 750px;
-		width: auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -231,7 +229,6 @@
 @media (min-width: 1024px) {
 	.players__img{
 		height: 750px;
-		width: auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -242,7 +239,6 @@
 
 	.athlets__img{
 		height: 850px;
-		width: 520px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -255,7 +251,6 @@
 @media (min-width: 1600px) {
 	.players__img{
 		height: 750px;
-		width: auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -266,7 +261,6 @@
 
 	.athlets__img{
 		height: 850px;
-		width: 520px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;

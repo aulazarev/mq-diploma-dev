@@ -151,7 +151,6 @@
 
 	.athlets__img {
 		height: 660px;
-		width: 520px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -162,7 +161,6 @@
 
 	.players__img {
 		height: 515px;
-		width: auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;

@@ -33,7 +33,6 @@
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
-		width: 270px;
 	}
 
 	.athlets__growth-text{
@@ -123,7 +122,6 @@
 
 	.athlets__img {
 		height: 280px;
-		width: 170px;
 		margin-left: auto;
 		margin-right: auto;
 		display: -webkit-box;
@@ -137,7 +135,6 @@
 
 	.players__img {
 		height: 250px;
-		width: 290px;
 		margin-left: auto;
 		margin-right: auto;
 		display: -webkit-box;
