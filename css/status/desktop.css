@@ -58,9 +58,16 @@
 		padding-bottom: 250px;
 	}
 
-	.be-active {
+	/*.be-active {
 		background-image: url("../../img/be-active.jpg");
+	}*/
+	.be-active {
+		width: 100%;
+		background-size:cover;
+
 	}
+
+
 
 	.find-contact {
 		background-image: url("../../img/find-contact.jpg");
