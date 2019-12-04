@@ -55,15 +55,25 @@
 	}
 
 	.be-active {
-		background-image: url("../../img/be-active.jpg");
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: right;
 	}
 
 	.find-contact {
-		background-image: url("../../img/find-contact.jpg");
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: center;
 	}
 
+
 	.work-it {
-		background-image: url("../../img/work-it.jpg");
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: right;
 	}
 
 	.find-contact-number {

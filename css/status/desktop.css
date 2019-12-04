@@ -50,7 +50,7 @@
 	.status__content-text {
 		font-size: 24px;
 		width: 50%;
-		padding-top: 250px;
+		padding-top: 220px;
 		padding-left: 130px;
 		padding-right: 75px;
 		-webkit-box-sizing: border-box;
@@ -58,23 +58,25 @@
 		padding-bottom: 250px;
 	}
 
-	/*.be-active {
-		background-image: url("../../img/be-active.jpg");
-	}*/
 	.be-active {
-		width: 100%;
-		background-size:cover;
-
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: right;
 	}
 
-
-
 	.find-contact {
-		background-image: url("../../img/find-contact.jpg");
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: left;
 	}
 
 	.work-it {
-		background-image: url("../../img/work-it.jpg");
+		object-fit: cover;
+    	height: 100%;
+    	width: 100%;
+    	object-position: left;
 	}
 
 	.find-contact-number {
