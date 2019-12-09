@@ -25,17 +25,3 @@ url('./../fonts/OpenSans-Regular.woff2') format('woff2');
 body{
 	min-width: 320px;
 }
-
-.border-blue{
-	height: 2px;
-	width: 100%;
-	border-radius: 2px;
-	background-color: #a496ca;
-}
-
-.border-white{
-	height: 2px;
-	width: 100%;
-	border-radius: 2px;
-	background-color: #ffffff;
-}
