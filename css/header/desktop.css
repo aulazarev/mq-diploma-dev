@@ -34,9 +34,14 @@
 		width: 187px;
 	}
 
+	.header__inner_content {
+		display: flex;
+		justify-content: center;
+	}
+
+
 	.header__inner_content-text {
 		color: white;
-		width: 100%;
 		font-size: 28px;
 		text-transform: uppercase;
 		-ms-flex-wrap: wrap;
@@ -52,17 +57,19 @@
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		width: 1530px;
 	}
 
 	.header__inner_content-text-head-span {
+		width: 666px;
 		margin-bottom: 35px;
 		align-self: flex-start;
-		margin-left: 192px;
+
 	}
 
 	.header__inner_content-text-span {
+		width: 1078px;
 		align-self: flex-end;
-		margin-right: 200px;
 	}
 
 	.header__wrap_btn {
