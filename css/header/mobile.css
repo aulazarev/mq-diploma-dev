@@ -83,11 +83,11 @@
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		height: 85px;
 		justify-content: space-between;
 	}
 
-	.header__btn {
+	.header__btn,
+	.header__btn2 {
 		width: 280px;
 		height: 35px;
 		border-radius: 30px;
@@ -106,12 +106,17 @@
 		text-decoration: none;
 	}
 
+	.header__btn2 {
+		margin-top: 15px;
+	}
+
 	.header__btn_content {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		width: 120px;
 	}
+
 
 	.header__btn_inner-content {
 		display: -webkit-box;
