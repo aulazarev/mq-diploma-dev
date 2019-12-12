@@ -89,7 +89,8 @@
 		align-items: center;
 	}
 
-	.footer__btn {
+	.footer__btn,
+	.footer__btn2 {
 		width: 305px;
 		height: 70px;
 		border-radius: 50px;
@@ -105,7 +106,8 @@
 		text-decoration: none;
 	}
 
-	.footer__btn:last-child{
+	.footer__btn:last-child,
+	.footer__btn2:last-child {
 		margin-left: 30px;
 	}
 
