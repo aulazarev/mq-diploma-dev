@@ -15,8 +15,8 @@
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
-		height: 350px;
 		width: 100%;
+		position: relative;
 	}
 
 	.status__content-number {
@@ -37,7 +37,7 @@
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
-		top: 300px;
+		bottom: -15px;
 		left: 20px;
 	}
 
@@ -99,4 +99,5 @@
 		color: #ffffff;
 		font-weight: bold;
 	}
+
 }
