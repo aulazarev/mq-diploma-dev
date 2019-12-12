@@ -1,9 +1,5 @@
 @media (min-width: 768px) and (max-width: 1023px) {
 
-	.mobile{
-		display: none;
-	}
-
 	.kinds__athlets{
 		position: relative;
 	}
@@ -185,7 +181,7 @@
 		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
-		left: -220px;
+		left: -150px;
 		top: 30px;
 	}
 
@@ -195,7 +191,7 @@
 		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
-		right: -220px;
+		right: 10px;
 		top: 60px;
 	}
 
