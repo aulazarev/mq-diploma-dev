@@ -2,12 +2,7 @@
 
 	.status__wrap-content {
 		position: relative;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -24,21 +19,25 @@
 		height: 110px;
 		position: absolute;
 		background-color: #5e42b0;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
 		align-items: center;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
 		justify-content: center;
 		bottom: -30px;
 		left: 30px;
+		z-index: 1;
+	}
+
+	.status__content-number02 {
+		width: 110px;
+		height: 110px;
+		position: absolute;
+		background-color: #5e42b0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		bottom: 320px;
+		left: 30px;
+		z-index: 1;
 	}
 
 	.status__content_text-title {
@@ -54,44 +53,14 @@
 		padding: 85px 85px 100px 30px;
 	}
 
-	.be-active {
-		object-fit: cover;
-    	height: 100%;
-    	width: 100%;
-    	object-position: right;
-	}
-
-	.find-contact {
-		object-fit: cover;
-    	height: 100%;
-    	width: 100%;
-    	object-position: center;
-	}
-
-
+	.be-active,
+	.find-contact,
 	.work-it {
-		object-fit: cover;
-    	height: 100%;
     	width: 100%;
-    	object-position: right;
-	}
-
-	.find-contact-number {
-		-webkit-box-ordinal-group: 4;
-		-ms-flex-order: 3;
-		order: 3;
 	}
 
 	.find-contact-text {
-		-webkit-box-ordinal-group: 3;
-		-ms-flex-order: 2;
 		order: 2;
-	}
-
-	.find-contact-img {
-		-webkit-box-ordinal-group: 2;
-		-ms-flex-order: 1;
-		order: 1;
 	}
 
 	.find-contact-number-span,
@@ -101,5 +70,4 @@
 		font-weight: bold;
 		font-size: 24px;
 	}
-
 }

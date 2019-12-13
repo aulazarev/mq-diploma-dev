@@ -2,12 +2,7 @@
 
 	.status__wrap-content {
 		position: relative;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -24,21 +19,24 @@
 		height: 65px;
 		position: absolute;
 		background-color: #5e42b0;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
 		align-items: center;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
 		justify-content: center;
 		bottom: -15px;
 		left: 20px;
+	}
+
+	.status__content-number02 {
+		width: 65px;
+		height: 65px;
+		position: absolute;
+		background-color: #5e42b0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		bottom: 180px;
+		left: 20px;
+		z-index: 1;
 	}
 
 	.status__content_text-title {
@@ -76,22 +74,17 @@
 	}
 
 	.find-contact-number {
-		-webkit-box-ordinal-group: 4;
-		-ms-flex-order: 3;
 		order: 3;
 	}
 
 	.find-contact-text {
-		-webkit-box-ordinal-group: 3;
-		-ms-flex-order: 2;
 		order: 2;
 	}
 
 	.find-contact-img {
-		-webkit-box-ordinal-group: 2;
-		-ms-flex-order: 1;
 		order: 1;
 	}
+
 
 	.find-contact-number-span,
 	.be-active-number-span,
@@ -99,5 +92,4 @@
 		color: #ffffff;
 		font-weight: bold;
 	}
-
 }
