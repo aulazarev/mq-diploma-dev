@@ -25,13 +25,12 @@
 	.athlets__collaboration-text,
 	.athlets__growth-text,
 	.players__connection-text,
-	.players__collaboration-text {
+	.players__collaboration-text,
+	.players__growth-text {
 		font-size: 15px;
 		line-height: 18px;
 		color: #000000;
 		margin-left: 20px;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 	}
 
@@ -44,8 +43,6 @@
 		line-height: 18px;
 		color: #ffffff;
 		margin-left: 20px;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		width: 270px;
 	}
@@ -60,12 +57,7 @@
 	.players__wrap-connection,
 	.players__wrap-collaboration,
 	.players__wrap-growth {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 		padding-bottom: 50px;
 		padding-top: 60px;
@@ -162,8 +154,6 @@
 		height: 280px;
 		margin-left: auto;
 		margin-right: auto;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		left: 0;
 		right: 0;
@@ -174,8 +164,6 @@
 		height: 250px;
 		margin-left: auto;
 		margin-right: auto;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
 		left: 0;
@@ -194,25 +182,12 @@
 		margin-top: 5px;
 	}
 
-	.players__wrap-connection-title,
-	.players__wrap-connection-title,
-	.players__wrap-connection-title {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
-		align-items: flex-start;
-	}
-
 	.athlets__wrap-growth-title,
 	.athlets__wrap-connection-title,
 	.athlets__wrap-collaboration-title,
 	.players__wrap-growth-title,
 	.players__wrap-connection-title,
 	.players__wrap-collaboration-title {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		padding-left: 20px;
 		margin-bottom: 25px;

@@ -6,7 +6,6 @@
 
 	.athlets__text_title,
 	.players__text_title {
-		font-size: 50px;
 		color: #e7e7e7;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -31,8 +30,6 @@
 		font-size: 20px;
 		color: #000000;
 		margin-left: 50%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		max-width: 450px;
 	}
@@ -41,8 +38,6 @@
 		font-size: 20px;
 		color: #ffffff;
 		margin-left: 50%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		width: 450px;
 	}
@@ -52,8 +47,6 @@
 		font-size: 20px;
 		color: #000000;
 		margin-left: 10%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		width: 720px;
 	}
@@ -69,12 +62,9 @@
 		line-height: 18px;
 		color: #ffffff;
 		margin-left: 10%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		width: 720px;
 	}
-
 
 	.kinds__players{
 		position: relative;
@@ -87,12 +77,7 @@
 	.players__wrap-connection,
 	.players__wrap-collaboration,
 	.players__wrap-growth {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 		padding-bottom: 55px;
 	}
@@ -183,21 +168,17 @@
 
 	.athlets__img {
 		height: 850px;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
-		left: 390px;
-		top: -50px;
+		left: 0;
+		top: 30px;
 	}
 
 	.players__img {
 		height: 750px;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
-		right: 125px;
+		right: -325px;
 		top: 25px;
 	}
 
@@ -220,22 +201,14 @@
 		margin-bottom: 100px;
 	}
 
-	.players__wrap-connection-title,
-	.players__wrap-connection-title,
-	players__wrap-connection-title {
-		display: -webkit-box;
-		display: -ms-flexbox;
+	.players__wrap-connection-title {
 		display: flex;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
 		align-items: flex-start;
 	}
 
 	.athlets__wrap-growth-title,
 	.athlets__wrap-connection-title,
 	.athlets__wrap-collaboration-title{
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		margin-left: 50%;
 		margin-bottom: 25px;
@@ -244,53 +217,20 @@
 	.players__wrap-growth-title,
 	.players__wrap-connection-title,
 	.players__wrap-collaboration-title {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 		margin-left: 10%;
 		margin-bottom: 25px;
 	}
 }
 
-@media (min-width: 1024px) {
-	.players__img{
-		height: 750px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		position: absolute;
-		right: -325px;
-		top: 25px;
-	}
-
-	.athlets__img{
-		height: 850px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		position: absolute;
-		left: 0;
-		top: 30px;
-	}
-}
 
 @media (min-width: 1600px) {
 	.players__img{
-		height: 750px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		position: absolute;
 		right: 0;
 		top: 25px;
 	}
 
 	.athlets__img{
-		height: 850px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		position: absolute;
 		left: 100px;
 		top: 30px;
 	}
