@@ -1,16 +1,20 @@
 @media (min-width: 1024px) {
 
-	.status__wrap-content {
+	.status__wrap-content,
+	.status__wrap-content2  {
 		position: relative;
 		display: flex;
+	}
+
+	.status__wrap-content2 {
+		flex-direction: row-reverse;
 	}
 
 	.status__content-img {
 		width: 50%;
 	}
 
-	.status__content-number,
-	.status__content-number02 {
+	.status__content-number {
 		width: 150px;
 		height: 150px;
 		position: absolute;
@@ -19,7 +23,7 @@
 		align-items: center;
 		justify-content: center;
 		top: 205px;
-		margin-left: calc(50% - 75px);
+		left: calc(50% - 75px);
 	}
 
 	.status__content_text-title {
