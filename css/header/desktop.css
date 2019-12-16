@@ -36,7 +36,6 @@
 	.header__inner_content-text {
 		color: white;
 		text-transform: uppercase;
-		-ms-flex-wrap: wrap;
 		display: flex;
 		text-align: center;
 		flex-direction: column;
